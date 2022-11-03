@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Programs</title>
+    <style>
+        .headings {
+            color:darkblue;
+            text-align: center;
+            margin: 1.25cm;
+            
+        }
+        table,th,td {
+            border:2px solid
+        }
+        .div_style {
+            background-color:yellow;
+            height:200px;
+        }
+        .text {
+            color:greenyellow;
+            font-size: 30px;
+            text-align:center;
+            padding-top:90px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #IDD {
+            background-color: cornflowerblue;
+            color:aliceblue;
+            font-size:24px;
+        }
+        .stylish {
+            background-color: darkviolet;
+            font-size: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="external.css">
+</head>
+<body>
+    <h1 class="headings">Lab 1: Exploring Tags in HTML</h1>
+    <h1>This is biggest heading</1>
+    <h2>Second biggest heading</h2>
+    <h3>third biggest heading</h3>
+    <h4>fourth biggest heading</h4>
+    <h5>Fifth biggest heading</h5>
+    <h6>smallest heading</h6>
+    <p>This is paragraph tag</p>
+    <ol>
+        <li>this</li>
+        <li>is</li>
+        <li>ordered list</li>
+    </ol>
+    <ul>
+        <li>This</li>
+        <li>is</li>
+        <li>unordered list</li>
+    </ul>
+    <pre>
+        This
+            is 
+                stylish
+                    Text
+    </pre>
+    <b>Bold text</b>
+    <i>italics text</i>
+    <u>underlined text</u>
+    <hr>
+    <table>
+        <tr>
+            <th>
+                This
+            </th>
+            <th>
+                is
+            </th>
+            <th>
+                Table
+            </th>
+        </tr>
+        <tr>
+            <td>hello</td>
+            <td>world</td>
+            <td>!</td>
+        </tr>
+        </table>
+        <a href="https://www.w3schools.com">Visit W3Schools</a>
+
+    <h1 class="headings">Lab 2: Including Media in HTML Pages</h1>
+    <h3>Inserting image</h3>
+    <img src="image1.jpg">
+    <h3>inserting youtube video</h3>
+    <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
+    <h3>inserting audio</h3>
+    <audio controls>
+        <source src="file_example.mp3" type="audio/mp3">
+    </audio>
+    <h3>inserting video</h3>
+    <video width="450" height="250" 
+    controls preload="auto">
+    <source src="https://media.geeksforgeeks.org/wp-content/uploads/20190616234019/Canvas.move_.mp4"
+        type="video/mp4">
+    <source src="https://media.geeksforgeeks.org/wp-content/uploads/20190616234019/Canvas.move_.ogg"
+        type="video/ogg">
+</video>
+
+    <h1 class="headings">Lab 3: Demonstration of HTML Tag Parameters</h1>
+    <p id="IDD">HELLO WORLD</p>
+    <p class="stylish">WORLD HELLO</p>
+
+    <h1 class="headings">Lab 4: Implementation of Inline CSS</h1>
+    <p>Normal text</p>
+    <p style = "color:rgb(252, 126, 147) ;font-size: 42px;text-align: center;text-decoration:underline;">stylish text</p>
+    <img src="image1.jpg" style = "width:100px; height:200px;">
+
+    <h1 class="headings">Lab 5: Implementation of internal CSS</h1>
+    <div class="div_style">
+        <p class="text">Internal styling</p>
+    </div>
+
+    <h1 class="headings">Lab 6: Styling using a .css file</h1>
+    <div class="div_stylee">
+        <p class="textt">External Styling</p>
+    </div>
+    
+</body>
+</html>
